@@ -1,0 +1,540 @@
+<html>
+<head>
+    <title>Echo Music Festival</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+    <script src="jquery.js"></script>
+    <script src="emf.js"></script>
+</head>
+<body>
+<div class="main">
+<div id="header">
+    <div id="right_mask"></div>
+    <div id="the_echo" class="header_title">THE ECHO</div>
+    <div id="the_4th" class="sub_title">4th</div>
+    <div id="music_festival" class="header_sub_title">Music Festival</div>
+    <nav>
+        <ul class="clear main_menu">
+            <li class="active"><a href="#"><span>Poster</span></a></li>
+            <li><a href="#"><span>Home</span></a></li>
+            <li><a href="#"><span>Lineup</span></a></li>
+            <li><a href="#"><span>Journey</span></a></li>
+        </ul>
+    </nav>
+</div>
+<div id="content">
+<div id="page_scroll">
+<div id="page_slides">
+<div class="page">
+    <img src="img/poster_en.jpg" alt="Echo Music Festival" width="980">
+</div>
+<div class="page">
+<hr size="10">
+<div class="home_intro justify">
+    <span class="header_title">圣诞PARTY</span>
+    <span class="title">我们没有2012的船票,但我们有音乐,只要有音乐和就不会有世界末日!!</span>
+        <span class="sub_title">
+            一年一度的回响音乐节EMF(Echo Music Festival)将在<span class="title">12.21.2012</span>年在知名的
+            <span class="title">DCTV 87 LAFAYETTE</span> 隆重登场。历经4个年度，EMF已经
+            成为纽约华语原创音乐最有影响力的音乐活动.最重要的是我们有喝不完的酒,热情的观众和乐队,5个多小时不停歇的音乐
+            <span class="title">With purity we came,with love we depart!</span>
+        </span>
+</div>
+
+<hr size="10">
+<div id="scroll">
+
+    <!-- scrollable items -->
+    <div id="slides" style="left: 0px;">
+
+        <!-- empty slot -->
+        <div class="slide">&nbsp;</div>
+        <div class="slide">
+                <img src="img/Firehouse.jpeg">
+            <div class="official_link">
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="slide">
+             <img src="img/bands/aftershock.jpeg">
+            <div class="official_link">
+                <a href="#" class="link">Visit Official Site</a>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="slide">
+                <img src="img/bands/blacklotus.jpg">
+            <div class="official_link">
+                <a href="https://www.facebook.com/blacklotusgirls" class="link">Visit Official Site</a>
+            </div>
+        </div>
+        <!-- 4 -->
+        <div class="slide">
+            <img src="img/bands/lc3.jpg">
+            <div class="official_link">
+                <a href="http://latecambrian.com" class="link">Visit Official Site</a>
+            </div>
+        </div>
+        <!-- 5 -->
+        <div class="slide">
+                <img src="img/bands/torpidmay2_980.jpg">
+            <div class="official_link">
+                <a href="http://www.facebook.com/TorpidMay" class="link">Visit Official Site</a>
+            </div>
+        </div>
+        <!-- 6 -->
+        <div class="slide">
+            <img src="img/bands/chaos2_980.jpg">
+            <div class="official_link">
+                <a href="https://www.facebook.com/pages/CHAOS/185287958991" class="link">Visit Official Site</a>
+            </div>
+        </div>
+        <!-- 7 -->
+        <div class="slide">
+                <img src="img/bands/rectifist1.jpg">
+            <div class="official_link">
+                <a href="http://www.facebook.com/Rectifist" class="link">Visit Official Site</a>
+            </div>
+        </div>
+        <!-- 8 -->
+        <div class="slide">
+            <img src="img/bands/hsu3_980.jpg">
+            <div class="official_link">
+                <a href="http://www.facebook.com/HsuNamiRock" class="link">Visit Official Site</a>
+            </div>
+        </div>
+        <!-- 0 -->
+        <div class="slide">
+            <img src="img/sponsor.jpeg">
+            <div class="official_link">
+            </div>
+        </div>
+    </div>
+
+    <!-- intro "page" -->
+    <div id="intro" class="slide" style="display: block; ">
+        <img src="img/schedule.jpeg" alt="kurtcobain surfing" class="left">
+<!--        <div class="schedule">
+            <p><span class="sub_title">Fri Dec 21, 2012</span></p>
+            <p>
+                <span class="time">5:30pm</span>
+                <span class="description">Doors Open</span>
+            </p>
+            <p>
+                <span class="time">6:00pm</span>
+                <span class="description">Aftershock</span>
+            </p>
+            <p>
+                <span class="time">6:30pm</span>
+                <span class="description">Black Lotus</span>
+            </p>
+            <p>
+                <span class="time">7:10pm</span>
+                <span class="description">Late Cambrian</span>
+            </p>
+            <p>
+                <span class="time">7:50pm</span>
+                <span class="description">TorpidMay</span>
+            </p>
+            <p>
+                <span class="time">8:35pm</span>
+                <span class="description">CHAOS</span>
+            </p>
+            <p>
+                <span class="time">9:25pm</span>
+                <span class="description">Rectifist</span>
+            </p>
+            <p>
+                <span class="time">10:15pm</span>
+                <span class="description">Hsu-nami</span>
+            </p>
+            <p>
+                <span class="time">11:10pm</span>
+                <span class="description">新世界</span>
+            </p>
+        </div>      -->
+
+        <div class="official_link">
+        </div>
+    </div>
+    <!-- required for IE6/IE7 -->
+    <br clear="all">
+    <!-- thumbnails -->
+    <div id="thumbs" class="t">
+
+        <table>
+            <tr class="navi">
+                <th rowspan="2" class="program active">Show Schedule</th>
+                <th>Door Opens</th>
+                <th><img src="img/bands/logos/aftershock.gif" alt="Aftershock"/></th>
+                <th><img src="img/bands/logos/blacklotus.gif" alt="Black Lotus"/></th>
+                <th><img src="img/bands/logos/latecambrian.gif" alt="Late Cambrian"/></th>
+                <th><img src="img/bands/logos/torpidmay.gif" alt="TorpidMay"/></th>
+                <th><img src="img/bands/logos/chaos.gif" alt="CHAOS"/></th>
+                <th><img src="img/bands/logos/rectifist.gif" alt="Rectifist"/></th>
+                <th><img src="img/bands/logos/hsunami.gif" alt="hsunami"/></th>
+                <th>Our Sponsors</th>
+            </tr>
+            <tr class="time">
+                <td>5:30pm</td>
+                <td>6:00pm</td>
+                <td>6:30pm</td>
+                <td>7:10pm</td>
+                <td>7:50pm</td>
+                <td>8:35pm</td>
+                <td>9:25pm</td>
+                <td>10:15pm</td>
+                <td>Sponsors</td>
+                <td></td>
+            </tr>
+        </table>
+        <!-- intro page navi button -->
+        <!-- scrollable navigator root element -->
+        <div >
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="page">
+    <hr size="10">
+    <div class="home_intro">
+        <span class="header_title">本届音乐节演出乐团</span>
+           <span class="sub_title">EMF历届最强阵容，拭目以待！</span>
+        </span>
+    </div>
+    <hr size="10">
+    <div class="one_band clear">
+        <span class="band_img left">
+            <img src="img/bands/hsu4.jpg"/>
+        </span>
+        <div class="accordion left">
+            <!-- 1st header and pane -->
+            <h2 class="description"><a class="link">Band Bio</a></h2>
+            <div class="band_info left pane">
+                <span class="title">Hsu-Nami</span>
+                <span class="description">
+                    Blending the hauntingly versatile traditional Chinese violin (ErHu) with modern American rock engineering – meet The Hsu-Nami!
+                    An international renowned Erhu fronted instrumental prog-rock band from the New York city. The Hsu-Nami.
+                    Integrates an amplified electric ”erhu”, a tweaked two-string spike fiddle used in Chinese classical and folk music,
+                    into a rock lineup. The band typically compose lengthy erhu melodic-based instrumental pieces that feature dynamic contrast,
+                    heavy guitar riffs, melodic bass guitar lines and trading solo. Part of the new-fusion rock movement, the Hsu-Nami redefines the
+                    1960s and 1970s progressive fusion rock. Hsu-Nami’s music was featured in the 2008 Summer Olympic in Beijing.
+                    The track “Rising of the sun” was the theme music representing the Chinese Basketball team entrance theme. The Hsu-Nami (New York city)
+                    has been building their brand since its inception in 2005 with an explosive live show and their exceptional musicianship.
+                    Behind two independent releases, “Entering the Mandala” (2007), and “The Four Noble Truths” (2009).
+                </span>
+            </div>
+            <!-- 2nd header and pane -->
+            <h2 class="description"><a class="link">中文</a></h2>
+            <div class="band_info left pane">
+                <span class="title">Hsu-Nami樂團</span>
+                            <span class="description">
+                                將電子二胡融入搖滾音樂，充分顯現出台灣與美國文化的交流互動。證明了要生存於搖滾世界，標奇立異乃是必然。要捕捉聽眾的貪新忘舊、見異思遷、獵奇心理，就要獨樹一幟。
+                                The Hsu-nami是2005年秋成軍的一支以電子二胡為主角的前衛融合搖滾樂團。在紐約的樂團中佔有一席之地的Hsu- nami擁有出色的音樂才能。
+                                “Entering the Mandala”(2007) 及 “The Four Noble Truths” (2009),在兩張獨立發行的專輯之後，展開了一系列令人印象深刻的演出。
+                                2010年在紐約CMJ Festival摩登天空的中國之夜是標題樂團, 2011年四月，在台灣各地巡迴演出，從墾丁春天吶喊，到高雄，台中及台北。
+                                十月在中國鎮江和北京超過十萬人的摩登天空草莓音樂節演出。
+                                The Hsu-nami的作品“Rising of the Sun“在2008年北京奧運會中作為中國籃球隊的入場音樂。
+                                成員均為美國人的Hsu-Nami樂團 拉電子二胡的團長許正杰(Jack Hsu). 而此團名「Hsu-Nami」，則是字頭取團長許正杰姓氏的英文拼音「Hsu」，
+                                加上Nami組成團名，英文發音「海嘯」(Tsunami)一樣。 基地在紐約的Hsu-Nami，不是只有熱情搖滾，團員們也都關心社會大事，
+                                他們曾多次在紐約舉行義演，利用世界首都高能見度的地緣優勢，為亞洲發聲。當2009年莫拉克侵襲台灣時，他們與來自台灣的「拷秋勤」
+                                一起在紐約表演募款。當2011年日本地震，他們也與女子樂團「Go-Chic」上台呼喊捐獻。
+                                樂團有許正杰(Jack Hsu)電子二胡手，布蘭特(Brent Bergholm)吉他手、德瑞爾(Derril Sellers)貝斯手、
+                                約翰(John Manna)鼓手 、達娜(Dana Goldberg)鍵盤手</span>
+                <br/>
+                <a href="http://www.hsu-nami.com/home" class="link">Visit Official Website</a>
+            </div>
+        </div>
+    </div>
+    <div class="three_band">
+        <div class="band left">
+            <div class="band_info">
+                <span class="title">CHAOS</span>
+                <span class="description">
+                    is an alternative rock band from Chinatown NY. The project started by Steven Lin and
+                    Mecca T.D back in 2004 but didn't get out of their garage and play until guitarist
+                    Wai Wong and drummer Masa Sakuma join in late 2008.
+                    The band made their debut on the 1st Echo Music Festival which was organized by local bands in Chinatown.
+                    Since then, the band's line-up has persistently altered throughout their existence.
+                    By late 2011, the band had a more stable line-up
+                    after Vincent(Guitarist) and Jeff(drummer) joined and had developed a progressive sound mingling
+                    hard rock, chinese folk music, metal and alternative rock.
+                </span>
+            </div>
+            <div class="band_img">
+                <img src="img/bands/chaos2.jpeg"/>
+            </div>
+        </div>
+        <div class="band left">
+            <div class="band_info">
+                    <span class="description">By early 2012, the group put the band back in the garage,
+                        off from stage and focusing all of their energy on finishing up
+                        their first studio album titled "In This Life We Met". They are aiming to release the
+                        self-titled album in this coming Echo Music Festival.
+                     </span>
+            </div>
+            <div class="band_info">
+                <span class="title">Black Lotus</span>
+                <span class="description">is a band formed with 3 girls and based in NYC. All 3 girls have
+                very different styles, and combining all three together makes "Black Lotus". The band consists of Alicia
+                (Guitar/Vocal), Kana (Bass/Vocal), and Narina (Drums/Vocal).
+                </span>
+            </div>
+            <div class="band_img">
+                <img src="img/bands/blacklotus2.jpg"/>
+            </div>
+        </div>
+        <div class="band left">
+            <div class="band_info">
+                <span class="title">TorpidMay</span>
+                <span class="description">F
+                    ormed in 2009 in New York City, combining elements of pop, grunge, noise, punk and ambient rock,
+                    Torpid May creates a melodic sound that is delicate and coarse, somber and affecting, dreamy and stern.
+                    The eclectic blend of sounds, like an act of collage making, overlaying and contaminates audiences’ senses –
+                    like the city that gives birth to their music, Torpid May invites you to start experiencing and stop feeling –
+                    as senses slowly becoming overloaded…
+                        成立於2009年的紐約市, Torpid May 樂團的音樂取向融合了流行, Grunge, 噪音, 龐克和氛圍搖滾的元素, 曲風中帶著沉重旋律感,
+                    幽暗中有著剛烈, 迷幻中不失的自我意識. 猶如他們存在的城市,不論你是盲從, 是執著, 是迷失, 還是堅持, Torpid May 的搖滾邀請你去感受,
+                    去跳脫杵在原地畫了的框框, 抓住僅存的瘋狂. 在踏著虛虛實實交集之於, 在感官暴漲之際…</span>
+            </div>
+            <div class="band_img">
+                <img src="img/bands/torpidmay1-small.jpg"/>
+            </div>
+        </div>
+    </div>
+    <div class="one_band clear">
+
+        <div class="accordion left">
+            <!-- 1st header and pane -->
+            <h2 class="description"><a class="link">Band bio</a></h2>
+            <div class="band_info left pane">
+                <span class="title">Late Cambrian</span>
+                <span class="description">  is an indie rock band out of Greenpoint, Brooklyn. John N Wlaysewski (Flying Machines, The Attorneys)
+                    convened with Colin Schiller (Drummer) in January of 2011 to record what would become their debut album, The Last Concert.
+                    John played the guitar, bass and synthesizer on this debut with Colin lending his drumming and percussion duties.
+                    The first five songs on the CD were tracked January 8-10. The next four were tracked in February with O lending here
+                    high airy backing vocals to three of the final tunes. The band put out a craigslist ad to find a bass guitarist
+                    and eventually added Nunzio Moudatsos (A Crimson Affair) as their official bass player. The unit intact,
+                    Late Cambrian took their melodic indie pop/rock sound to the stage in late March of 2011. 
+                    Late Cambrian have been compared to The Arctic Monkeys, The Kooks and The Strokes. They have also been compared to <a
+                            href=" http://www.ourstage.com/blog/2011/08/06/late-cambrian-vs-weezer"
+                            class="link">Weezer</a> 
+                in numerous articles and album reviews, mostly due to the albums dense guitar attack and </span>
+            </div>
+
+            <!-- 2nd header and pane -->
+
+            <h2 class="description"><a class="link">More</a></h2>
+
+            <div class="band_info left pane">
+                <span class="description">
+                    high sing song melodies. The lyrical content tends to be existential in nature, tackling subjects such as aging,
+                    the cult of celebrity and being a shut in. They bring a thoughtful approach to songwriting,
+                    with many of the songs going through tempo and key changes when it serves the song's higher purpose. 
+                    Late Cambrian recently won The Kickoff To KahBang contest and traveled to
+                    Bangor Maine to open for The Gay Blades. They have also been featured on Broke Ass Stuart, numerous other tastemaking blogs. 
+                    Their music is available on Itunes, Amazon and CD Baby and they recently procured Japan
+                    distrobution which has sold out of their 1st run of cd's ! 
+                    Late Cambrian is a band to watch, as their 2nd release of brand new material is being mixed in March of 2012. 
+
+                    John has played in The Attorneys, Flying Machines, Jessie Diamond and The Thousand and other New York projects.
+                    He brings all he has learned from these experiences to the songwriting and feel of the music in Late Cambrian.
+                    He has had music placed on MTV, Oxygen, USA Network, and NBC.
+                       </span>
+                <a href="http://www.latecambrian.com" class="link">Visit Official Website</a>
+            </div>
+        </div>
+
+                        <span class="band_img left">
+                            <img src="img/bands/lc4.jpg"/>
+                        </span>
+    </div>
+    <div class="three_band">
+
+        <div class="band left" style="width: 430px">
+            <div class="band_info" style="width: 430px">
+                <span class="title">Rectifist</span>
+                    <span class="description">
+                        <img src="img/bands/rectifist1.jpg" class="right" width="300" height="300"/>
+                        is a New York City Hard Rock/Metal band formed in 2012 by Steve, Sylivan, CY, Jeff, and Spark.
+                        They were all in a temporary experimental project called X-Scale prior to this group's formation.
+                        After that, they have decided to form a permanent band and be a part of the growing underground music scenery in NYC.
+                            The band name is derived from the word "Rectifier". A rectifier is an electrical device
+                        that converts alternating current (AC), which periodically reverses direction, to direct current (DC), which flows in only one direction.
+                        Alternatively, rectify can also mean to make, put, or set right. Thus, rectifier can also mean a
+                        person or thing that rectifies. The suffix "-ist" is one who follows a principle or system of belief.
+                        Therefore, Rectifist is a single unity determined to stand out and speak for our culture, society,
+                        and the world we live in through our music
+
+                    </span>
+            </div>
+        </div>
+        <div class="band left" style="width: 500px">
+            <div class="band_info" style="width: 500px">
+                <span class="title">Aftershock</span>
+                    <span class="description">
+                        <img src="img/bands/aftershock.jpeg" class="left" width="300" height="300"/>
+                        Started by drummer Zhao Cheng, a local musician and philanthropist, former member of MIC and Kinky Kinks,
+                        Aftershock was firstly deemed as continuation of Kinky Kinks.
+                        However, due to various reasons former members of Kinky Kinks left the band as new members joined, the group
+                        is practically new and different from before.
+                        Zhao had played in all kinds of venues for over ten years in New York,
+                        and therefore making him an experienced veteran musician. His drumming style is versatile and dynamic,
+                        which offers the audience never tiring beats.
+
+                        Pei Pang joined the New Kinky Kinks in June 2012 before it was changed to Aftershock.
+                        As the previous vocalist/rhythm guitarist and songwriter of Pittsburgh based alternative rock band Free Bullets,
+                        Pei helped Zhao create the new band and came up with the name "Aftershock". With influence from a wide range of musicians and styles,
+                        Pei is now the main songwriter, vocalist, and rhythm guitarist for Aftershock.
+                        Dong Li, hailed all the way from Beijing, joined the band in August 2012 as lead guitarist.
+                        He started playing guitar since middle school, and have later played with several rock bands based in China.
+                        As time goes by, he expanded his music style from technique and speed to more interesting tunes. And of course,
+                        he is also an awesome rapper that sings in a couple of Aftershock's songs.
+
+                        Qingyun Luo, aka Luo Bei, performs bass in the band. He was the bassist for Jet-Lag and also now plays in the J-Punk band Asterplace.
+                        As an experienced bassist, Luo Bei is capable of delivering great dynamics and versatility to Aftershock's original music.
+                    </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page">
+
+    <div class="events">
+        <hr size="10">
+        <div class="home_intro justify">
+            <span class="header_title">EMF序</span>
+           <span class="sub_title">
+               激烈的电吉他，震撼的鼓声冲击耳膜，挑战听觉极限，嘶吼的歌声，渲泄内心情感，不管是悲伤，愤怒，抑或是喜悦，希冀，在那一刻，
+               所有的情绪都可以淋漓尽致，无所不能地汹涌澎湃。当你置身其中，你会发觉你的灵魂深处一直有对自由向往的血液在流淌，不管你披上怎样平静，华丽的外衣。
+               这就是摇滚的魅力，用最直接甚至残酷的方式直面真实的自己，真实的世界，在批判的冲锋和沦陷中占领着音乐先锋的地位。
+               尽管摇滚总是容易和<span class="header_sub_title">颓废，性，毒</span>品沾边，有人形容是废墟上的花朵。然而，我们认为，摇滚是理想主义者的批判和怀疑，
+               是独立人性的探索和精神涅磐，它温情脉脉却壮烈激昂。<span class="title">也许在漂泊中追逐理想和冰冷的现实中深切的无奈让摇滚音乐总是在夹缝中生存，
+               时而顽强，时而脆弱，但相信，</span><span class="header_title"> 我们都需要音乐家园</span>
+           </span>
+        </div>
+
+        <hr size="10">
+        <span class="title clear">EMF以往举办过的活动 2009, 2010, 2011, 2012</span>
+
+        <div class="event">
+            <span class="sub_title">2012.02.12 新春追龙派对</span>
+        </div>
+
+        <div class="event">
+            <span class="sub_title">2011.12.23 第三届EMF回响音乐节</span>
+        </div>
+
+        <div class="event">
+            <span class="sub_title">2010.10.09 第二届EMF回响音乐节</span>
+
+            <div class="poster">
+                <a class="link" href="http://www.facebook.com/events/106893336037825/">
+                </a>
+            </div>
+
+            <div class="circular_scroll">
+                <div class="pics">
+                    <div><img src="img/poster/EMF_final_crash_mansion_small.jpg" alt=""/></div>
+                    <div><img src="img/press/emf2_world_journal.jpeg"></div>
+                    <div><img src="img/press/emf2_world_journal2.jpeg"></div>
+                    <div><img src="http://sphotos-b.xx.fbcdn.net/hphotos-ash3/44885_437495435875_5209589_n.jpg"></div>
+                    <div><img src="http://sphotos-b.xx.fbcdn.net/hphotos-prn1/66651_452800284733_3448640_n.jpg"></div>
+                    <div><img src="http://sphotos-a.xx.fbcdn.net/hphotos-prn1/33738_452800164733_1757714_n.jpg"></div>
+                    <div><img src="http://sphotos-b.xx.fbcdn.net/hphotos-prn1/66370_452799939733_5286931_n.jpg"></div>
+                    <div><img class="vertical" src="http://sphotos-b.xx.fbcdn.net/hphotos-prn1/59638_452915019733_7822799_n.jpg"></div>
+                    <div><img src="http://sphotos-a.xx.fbcdn.net/hphotos-prn1/47001_452915219733_7346339_n.jpg"></div>
+                    <div><img src="http://sphotos-a.xx.fbcdn.net/hphotos-ash3/68553_453239464733_7616237_n.jpg"></div>
+                    <div><img src="http://sphotos-b.xx.fbcdn.net/hphotos-prn1/69828_10150313811140585_1839995_n.jpg"></div>
+                </div>
+            </div>
+
+            <div class="event">
+                <span class="sub_title">2009/10/17 - 桔子入侵中国人来啦</span>
+
+                <div class="poster">
+                    <div class="circular_scroll">
+                        <div class="pics">
+                            <div><img src="img/poster/mandarin_invasion.jpg" class="left"></div>
+
+                        </div>
+                    </div>
+                <span class="description">----献给10月17日晚纽约摇滚夜
+
+                激烈的电吉他，震撼的鼓声冲击耳膜，挑战听觉极限，嘶吼的歌声，渲泄内心情感，不
+                管是悲伤，愤怒，抑或是喜悦，希冀，在那一刻，所有的情绪都可以淋漓尽致，无所不
+                能地汹涌澎湃。
+
+                我以为teenager 时代喜爱的摇滚早已随着成长远离逝去。 那个曾经剪着超短发，穿着
+                破牛仔，听着gun and rose, 唐朝，冷冷酷酷地游走校园的小女生，如今早已长发飘飘
+                ，穿着精致典雅的裙子办公室正襟危坐，脸上挂着温婉的笑容。我以为踮着脚尖练着芭
+                蕾的是我，重回classic piano, violin 怀抱的是我；拒绝朋友相邀Linkin Park ,
+                U2 concert 的是我，一句太吵了是最好的托辞。。。。。。
+
+                而今晚，站在小小舞台下，一群不知名的摇滚乐手，歌手，只因为对音乐的热爱，聚集
+                在纽约一家不大的music bar, 他们和他们的音乐带来的精神震撼远远超过我以为的自
+                己。原来灵魂深处一直有摇滚的血液在流淌，不管你披上怎样平静，华丽的外衣。
+
+                这就是摇滚的魅力，用最直接甚至残酷的方式直面真实的自己，真实的世界，在批判的
+                冲锋和沦陷中占领着音乐先锋的地位。如果说Elvis Presley 50年代以一曲that’s
+                all right mama 成名还是只是摇滚的羞涩情歌阶段，60年代带有强烈政治激进观点的
+                Beatles 的Sgt. Pepper's Lonely Hearts Club Band, let it be, yellow submarine
+                点燃了摇滚的辉煌，而后80年代gun and rose开创的重金属摇滚带着November rain ,
+                Don’t cry 闪电般奔腾而来 ，U2一曲war把摇滚推向巅峰。
+
+                中国内地的摇滚暗中萌动的度过70年代末和80年代初，以崔健86年工体的一句“我曾经
+                问个不休”揭开序幕，因为年龄尚小，未曾经历那个划时代的瞬间，但对随后出现的电
+                影摇滚青年有点印象了。崔健，这个中国摇滚领军人物， 辉煌了从86惊艳亮相到94年
+                专辑红旗下的蛋无人问津，尽管如今的他只有小女生绯闻扯在一起，再无建树，他，仍
+                然确立了中国摇滚奠基人的地位。然后就到了唐朝，5个长发飘扬的高个男子，一曲梦
+                回唐朝，“菊花古剑和酒被咖啡泡入喧嚣的亭院，异族在日坛膜拜古人的月亮,开元盛
+                事令人神往。。。。。”，飘逸灵动的歌词，至今读来仍然风采神往；黑豹的don’t
+                break my heart, 无地自容，是90年代初学生必唱曲目；窦唯，郑钧，张楚，零点乐队
+                算是风头正健的90年代的代表人物。。。。。。2000年后，中国摇滚淡出我的视线和听
+                觉。。。。。。有记忆的就是只有喜欢一阵子的linkin park的in the end。
+
+                眼前，2009年，一群在北美的年轻的中国乐手，歌手，无论专业或业余，对摇滚的热爱
+                一如既往，具有强烈牺牲精神。四个乐队只为了分别不到一个小时的舞台演出，不远从
+                德州，西雅图，加州，密西根。。。。赶来纽约，为这摇滚的盛宴。
+                很多作品来自这些音乐人原创，伤感思乡的father, I ‘m coming home; 新订婚的歌
+                手写给心爱的姑娘；对社会现实的批判的one night stand。。。。。。； 来自密西根
+                的大男生吹着口琴，深情演绎我愿意; 长发遮住半边脸，穿着红色AF hoodie, 叫
+                Steven的男生似乎拥有最多fans, 人群和着他激情的歌声尖叫跳跃。留着长胡须的有
+                个性的吉他手，精湛的吉他演奏不仅带来听觉享受，看着他摇头晃脑眼睛微闭陶醉沉浸
+                的模样，那个瞬间，明白为音乐狂是怎样的精神愉悦。最后压轴的女歌手一曲
+                California hotel 闪亮登场后， 不断挑战高难度的歌曲把这摇滚之夜推向新的高潮。
+
+                尽管摇滚总是容易和颓废，性，毒品沾边，有人形容是废墟上的花朵。然而，我认为，
+                摇滚是理想主义者的批判和怀疑，是独立人性的探索和精神涅磐，它温情脉脉却壮烈激
+                昂。也许在漂泊中追逐理想和冰冷的现实中深切的无奈让摇滚音乐总是在夹缝中生存，
+                时而顽强，时而脆弱，但相信，我们都需要音乐家园。
+
+                感谢参加演出的所有乐手和歌手，祝愿坚持理想，摇滚精神永恒。
+
+                - by svmy
+                </span>
+                </div>
+            </div>
+            <div class="event">
+                <span class="sub_title">2009/4/1 - 第一届话语原创话语摇滚音乐节</span>
+                http://news.sinovision.net/portal.php?mod=view&aid=77878
+                https://s-static.ak.facebook.com/rsrc.php/v1/y2/r/5l8_EVv_jyW.swf?v=63576611508&ev=0
+                <div class="poster">
+                    <img src="img/poster/mandarin_invasion.jpg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+
+<div id="footer">
+</div>
+
+</div>
+
+</body>
+</html>

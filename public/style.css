@@ -1,0 +1,499 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    background: #000000;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+HR {height:0px; border: 4px solid #CE0202;}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/** header content fonts **/
+.header_title {
+    font: normal normal bold 68px/1.1em Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.header_sub_title {
+    font: normal normal normal 30px/1.2em Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.header_description {
+    font: normal normal normal 14px/1.3em 'Open Sans', sans-serif;
+    color: white;
+}
+
+/** body content font **/
+
+.title {
+    font: normal normal normal 38px/1.3em Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.sub_title {
+    font: normal normal normal 22px/1.3em Helvetica, Arial, sans-serif !important;
+    color: white;
+}
+
+.description, .details, .official_link {
+    font: normal normal normal 12px/1.3em 'Open Sans', sans-serif;
+    color: white;
+}
+
+.official_link {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.details {
+    /*background-image: url("img/Firehouse.jpeg");*/
+    width: 400px;
+    height: 400px;
+    float: left;
+    /*Order Number: W460754614
+    Order Number: W419381895
+    */
+}
+/** menu **/
+.center {
+    /*margin: 0 auto;*/
+}
+
+nav {
+    /*float: none;*/
+    width: 360px;
+    top: 95%;
+    position: absolute;
+    left: 50%;
+    margin-left: -180px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+}
+
+a {
+    color: white;
+}
+
+nav a {
+    margin: 0 5px;
+    padding: 3px;
+    text-decoration: none;
+    vertical-align: baseline;
+    font: normal normal normal 14px/1.1em Helvetica, Arial, sans-serif;
+    background-color: transparent;
+}
+
+nav span {
+    display: inline-block;
+    padding: 4px 15px;
+}
+
+nav a:hover {
+    background-color: #262626;
+    -webkit-transition: background-color 0.4s ease 0s;
+    -moz-transition: background-color 0.4s ease 0s;
+}
+
+nav a:active, nav li.active a {
+    background-color: #CE0202;
+    -webkit-transition: background-color 0.4s ease 0s;
+    -moz-transition: background-color 0.4s ease 0s;
+}
+
+a.link {
+    margin: 0 5px;
+    padding: 4px 15px;
+    font: normal normal normal 14px/1.3em 'Open Sans', sans-serif;
+    border-radius: 0px;
+    text-decoration: none;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
+    border: 1px solid #2A2A2A;
+    border-image: fill;
+    cursor: pointer;
+    -webkit-transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    -moz-transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+
+}
+
+a.link:hover, tr.navi th:hover, tr.navi th.active {
+    background-color: #CE0202;
+    -webkit-transition: background-color 0.4s ease 0s;
+    -moz-transition: background-color 0.4s ease 0s;
+}
+
+.shadow {
+    -moz-box-shadow: 3px 3px 4px #CE0202;
+    /*-webkit-box-shadow: 3px 3px 4px #000;*/
+    /*box-shadow: 3px 3px 4px #000;*/
+    /* For IE 8 */
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";*/
+    /* For IE 5.5 - 7 */
+    /*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');*/
+}
+
+.clear {
+    clear: both;
+}
+
+.main, #content, #footer, #header, .band {
+    /*border: solid 1px #262626;*/
+}
+
+.main {
+    width: 980px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -490px;
+}
+
+#content {
+    width: 980px;
+    position: absolute;
+    top: 420px;
+    /*background-size: contain;*/
+}
+
+#footer {
+}
+
+#header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 410px;
+    background-image: url("img/bands/chaos-small.jpg");
+    background-size: contain;
+}
+
+#the_echo {
+    position: absolute;
+    left: 620px;
+    top: 62px;
+    width: 380px;
+    -moz-box-shadow: 0px 2px 4px #262626;
+    background: #000000;
+}
+
+#music_festival {
+    position: absolute;
+    left: 780px;
+    top: 119px;
+    -moz-box-shadow: 0px 2px 4px #262626;
+    background: #000000;
+}
+
+#the_4th {
+    position: absolute;;
+    left: 755px;
+    top: 78px;
+    /*width:280px;*/
+    -moz-box-shadow: 0px 2px 4px #262626;
+    color: #ff0143;
+    background: #000000;
+    /*opacity: 0.9;*/
+}
+
+#right_mask {
+    height: 410px;
+    width: 400px;
+    position: absolute;
+    top:0px;
+    left:600px;
+    background: #000000;
+    opacity: .7;
+}
+
+.band {
+    width:300px;
+    padding: 12px;
+}
+
+.band_img {
+    width:300px;
+    height: 300px;
+}
+
+.band_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.band_info {
+    width: 300px;
+}
+
+.one_band {
+    width:100%;
+    height:400px;
+    padding: 10px;
+}
+
+div.one_band .band_img {
+    width: 500px;
+    height: 400px;
+}
+
+div.one_band .band_info {
+    width: 400px;
+}
+
+
+
+.three_band {
+    padding-top:20px;
+}
+.none {
+display: none;
+}
+
+/** jquery tools **/
+.accordion {
+    width: 450px;
+}
+
+.accordion h2 {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 14px;
+    margin: 0;
+    padding: 5px 15px;
+}
+
+.accordion h2.current {
+    cursor: default;
+}
+.accordion .pane {
+    display: none;
+    font-size: 12px;
+    padding: 15px;
+}
+
+/** home page slide show **/
+
+
+#scroll, #page_scroll {
+	position:relative;
+	overflow:hidden;
+	width:980px;
+	/*padding:15px;*/
+    padding-top:0px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+#scroll{
+    height:800px;
+    padding-top: 90px;
+
+}
+
+#slides,#page_slides {
+	width:9999em;
+	position:absolute;
+}
+
+#slides {
+    height:800px;
+}
+
+#page_scroll, #page_slides {
+    /*overflow-y: visible;*/
+    height:1300px;
+}
+
+.slide, .page {
+	float:left;
+	width:980px;
+	text-align:center;
+}
+
+.slide {
+    height:340px;
+    position: relative;
+}
+
+/*
+.details {
+	font-size:18px;
+	color:#555;
+	margin-top:-20px;
+	background-color:transparent;
+	padding:5px 148px;
+}
+*/
+
+#thumbs {
+	/*background:url(/media/img/demo-navi.jpg) no-repeat;*/
+	height:0px;
+	position:absolute;
+	top:0px;
+	width:980px;
+    background-color: #262626;
+}
+
+.t {
+	padding:0 !important;
+	border:0 !important;
+}
+
+.t a {
+	/*background:transparent url(/media/img/demo-navi.jpg) no-repeat scroll -21px -90px;*/
+	margin:0 4px 0;
+    padding: 0;
+	display:block;
+	float:left;
+	cursor:pointer;
+}
+
+.t a.active {
+	cursor:default !important;
+}
+
+.t tr{
+    color: white;
+}
+
+.navi {
+	margin-left:20px;
+	/*_margin-left:304px;*/
+}
+
+.navi th {
+    vertical-align: middle;
+    cursor:pointer;
+}
+.navi th.program {
+    width:200px;
+}
+
+.navi div {
+    width: 90px;
+    height: 60px;
+    float: left;
+}
+
+/* CSS sprite for the navigation */
+#thumbs table {
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
+    border: 1px solid #2A2A2A;
+    margin-right:100px; _margin-right:100px;
+    width:100%;
+}
+
+.slide_image {width: 980px;height: 800px;}
+
+.schedule {
+    float:left;
+}
+
+.schedule p {
+    width:400px;
+    text-align: left;
+    padding: 6px 0 4px 10px;
+    /*border-top: 1px dashed #2A2A2A;*/
+}
+
+.schedule .time {
+    font: normal normal normal 20px/1.3em Helvetica, Arial, sans-serif;
+    width:120px;
+    color:white;
+    float:left;
+    display:block;
+}
+
+.schedule .description {
+    font: normal normal normal 20px/1.3em Helvetica, Arial, sans-serif;
+    width:100px;
+}
+
+
+.schedule_label {
+    margin-bottom: 10px;
+}
+
+.poster {
+    height:300px;
+    width: 200px;
+    float:left;
+}
+
+.poster img {
+    width:100%;
+    height:100%;
+}
+
+
+/* root element for single scroll */
+.circular_scroll {
+    position:relative;
+    overflow:hidden;
+    width: 720px;
+    height: 480px;
+    float:left;
+    margin-left: 50px;
+    margin-bottom: 2px;
+}
+
+/* root element for the scroll pics */
+.circular_scroll .pics {
+    width:20000em;
+    position:absolute;
+    clear:both;
+}
+
+/* single scroll item */
+.pics div {
+    float:left;
+    cursor:pointer;
+    width:720px !important;
+    height:480px;
+    margin:0px;
+}
+
+.pics div img {
+    width:100%;
+    height:100%;
+}
+
+/* possible settings for the active scroll */
+.circular_scroll.active {
+}
+
+.event {
+    width: 100%;
+    clear: both;
+}
+
+.justify {
+text-align: justify
+}
+
+
+
