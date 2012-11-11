@@ -41,7 +41,7 @@ HR {height:0px; border: 4px solid #CE0202;}
 /** body content font **/
 
 .title {
-    font: normal normal normal 38px/1.3em Helvetica, Arial, sans-serif;
+    font: normal normal normal 38px/1.3em Helvetica, Arial, sans-serif !important;
     color: white;
 }
 
@@ -206,6 +206,12 @@ a.link:hover, tr.navi th:hover, tr.navi th.active {
     top: 119px;
     -moz-box-shadow: 0px 2px 4px #262626;
     background: #000000;
+}
+
+#facebook {
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 #the_4th {
@@ -457,7 +463,7 @@ display: none;
     width: 720px;
     height: 480px;
     float:left;
-    margin-left: 50px;
+    margin-left: 130px;
     margin-bottom: 2px;
 }
 
@@ -478,7 +484,7 @@ display: none;
 }
 
 .pics div img {
-    width:100%;
+    /*width:100%;*/
     height:100%;
 }
 
@@ -489,10 +495,27 @@ display: none;
 .event {
     width: 100%;
     clear: both;
+    padding: 20px;
+}
+
+.event div.event_title {
+    padding: 10px;
+    float:left;
+    clear:both;
+}
+
+div.event_title a {
 }
 
 .justify {
 text-align: justify
+}
+
+.reports {
+    padding:10px;
+}
+div.event div.reports a {
+    padding:10px;
 }
 
 
