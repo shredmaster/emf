@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 body {
     background: #000000;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
 }
 
 HR {height:0px; border: 4px solid #CE0202;}
@@ -34,38 +34,25 @@ HR {height:0px; border: 4px solid #CE0202;}
 }
 
 .header_description {
-    font: normal normal normal 14px/1.3em Helvetica, Arial, sans-serif;
+    font: normal normal normal 14px/1.3em 'Open Sans', sans-serif;
     color: white;
 }
 
 /** body content font **/
 
 .title {
-    font: normal normal normal 38px/1.3em Helvetica, Arial, sans-serif;
+    font: normal normal normal 38px/1.3em Helvetica, Arial, sans-serif !important;
     color: white;
 }
 
 .sub_title {
-    font: normal normal normal 22px/1.3em Helvetica, Arial, sans-serif;
-    color: white;
-}
-
-.journey_description {
-    font: normal normal normal 18px/1.3em Helvetica, Arial, sans-serif;
+    font: normal normal normal 22px/1.3em Helvetica, Arial, sans-serif !important;
     color: white;
 }
 
 .description, .details, .official_link {
-    font: normal normal normal 12px/1.3em Helvetica, Arial, sans-serif;
+    font: normal normal normal 12px/1.3em 'Open Sans', sans-serif;
     color: white;
-}
-
-.neon {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
-}
-
-.fire {
-    text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
 }
 
 .official_link {
@@ -129,32 +116,27 @@ nav a:hover {
     background-color: #262626;
     -webkit-transition: background-color 0.4s ease 0s;
     -moz-transition: background-color 0.4s ease 0s;
-    transition: background-color 0.4s ease 0s;
 }
 
 nav a:active, nav li.active a {
     background-color: #CE0202;
     -webkit-transition: background-color 0.4s ease 0s;
     -moz-transition: background-color 0.4s ease 0s;
-    transition: background-color 0.4s ease 0s;
 }
 
 a.link {
     margin: 0 5px;
     padding: 4px 15px;
-    font: normal normal normal 14px/1.3em Helvetica, Arial, sans-serif;
+    font: normal normal normal 14px/1.3em 'Open Sans', sans-serif;
     border-radius: 0px;
     text-decoration: none;
     background-color: transparent;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
     border: 1px solid #2A2A2A;
     border-image: fill;
     cursor: pointer;
     -webkit-transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
     -moz-transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
-    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
 
 }
 
@@ -162,13 +144,10 @@ a.link:hover, tr.navi th:hover, tr.navi th.active {
     background-color: #CE0202;
     -webkit-transition: background-color 0.4s ease 0s;
     -moz-transition: background-color 0.4s ease 0s;
-    transition: background-color 0.4s ease 0s;
 }
 
 .shadow {
     -moz-box-shadow: 3px 3px 4px #CE0202;
-    -webkit-box-shadow: 3px 3px 4px #CE0202;
-    -box-shadow: 3px 3px 4px #CE0202;
     /*-webkit-box-shadow: 3px 3px 4px #000;*/
     /*box-shadow: 3px 3px 4px #000;*/
     /* For IE 8 */
@@ -208,37 +187,25 @@ a.link:hover, tr.navi th:hover, tr.navi th.active {
     position: absolute;
     top: 0;
     height: 410px;
-    background-image: url("img/bands/chaos_header.jpg");
+    background-image: url("img/bands/chaos-small.jpg");
     background-size: contain;
 }
 
-#the_echo, #music_festival, #emf_date, #emf_show_info {
-
-    -moz-box-shadow: 0px 2px 4px #262626;
-    box-shadow: 0px 2px 4px #262626;
-    -webkit-box-shadow: 0px 2px 4px #262626;
-    background: #000000;
-    position: absolute;
-}
 #the_echo {
+    position: absolute;
     left: 620px;
     top: 62px;
-    width: 360px;
+    width: 380px;
+    -moz-box-shadow: 0px 2px 4px #262626;
+    background: #000000;
 }
 
 #music_festival {
+    position: absolute;
     left: 780px;
-    top: 135px;
-}
-
-#emf_date {
-    left: 780px;
-    top: 170px;
-}
-
-#emf_show_info {
-    left: 780;
-    top:208px;
+    top: 119px;
+    -moz-box-shadow: 0px 2px 4px #262626;
+    background: #000000;
 }
 
 #facebook {
@@ -253,8 +220,6 @@ a.link:hover, tr.navi th:hover, tr.navi th.active {
     top: 78px;
     /*width:280px;*/
     -moz-box-shadow: 0px 2px 4px #262626;
-    -webkit-box-shadow: 0px 2px 4px #262626;
-    box-shadow: 0px 2px 4px #262626;
     color: #ff0143;
     background: #000000;
     /*opacity: 0.9;*/
@@ -287,13 +252,12 @@ a.link:hover, tr.navi th:hover, tr.navi th.active {
 
 .band_info {
     width: 300px;
-    text-align: justify;
 }
 
 .one_band {
     width:100%;
     height:400px;
-    padding: 2px;
+    padding: 10px;
 }
 
 div.one_band .band_img {
@@ -348,7 +312,6 @@ display: none;
     padding-top:0px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
-	border-radius:5px;
 }
 
 #scroll{
@@ -368,7 +331,7 @@ display: none;
 
 #page_scroll, #page_slides {
     /*overflow-y: visible;*/
-    height:1100px;
+    height:1300px;
 }
 
 .slide, .page {
@@ -445,10 +408,8 @@ display: none;
 /* CSS sprite for the navigation */
 #thumbs table {
     box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
     border: 1px solid #2A2A2A;
-    margin-right:100px;
+    margin-right:100px; _margin-right:100px;
     width:100%;
 }
 

@@ -34,7 +34,7 @@ $(document).ready(function () {
         // use the navigator plugin
     }).navigator({navi:".main_menu"}).data("scrollable");
 
-    var theSize = [1100, 1400, 2100, 1900];
+    var theSize = [1300, 1400, 2100, 1400];
 
     // this callback does the special handling of our "intro page"
     api.onBeforeSeek(function (e, i) {
@@ -96,24 +96,5 @@ $(document).ready(function () {
             $(this).data("scrollable").prev();
         }
     });
-
-    $("#chinese_btn").click(function(){
-        $("#english_btn").show();
-        $(this).hide();
-    });
-    $("#english_btn").click(function(){
-        $("#chinese_btn").show();
-        $(this).hide();
-    });
-
-    $("#back_btn").click(function(){
-        $("#more_btn").show();
-        $(this).hide();
-    });
-    $("#more_btn").click(function(){
-        $("#back_btn").show();
-        $(this).hide();
-    });
-
 });
 
