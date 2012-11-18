@@ -1,24 +1,3 @@
-var journey = {
-    2009:{
-        event:{
-            title:"",
-            image:[
-                "img/poster/EMF_final_crash_mansion_small.jpg",
-                "img/press/emf2_world_journal.jpeg",
-                "img/press/emf2_world_journal2.jpeg",
-                "http://sphotos-b.xx.fbcdn.net/hphotos-ash3/44885_437495435875_5209589_n.jpg",
-                "http://sphotos-b.xx.fbcdn.net/hphotos-prn1/66651_452800284733_3448640_n.jpg",
-                "http://sphotos-a.xx.fbcdn.net/hphotos-prn1/33738_452800164733_1757714_n.jpg",
-                "http://sphotos-b.xx.fbcdn.net/hphotos-prn1/66370_452799939733_5286931_n.jpg",
-                "http://sphotos-a.xx.fbcdn.net/hphotos-prn1/47001_452915219733_7346339_n.jpg",
-                "http://sphotos-a.xx.fbcdn.net/hphotos-ash3/68553_453239464733_7616237_n.jpg",
-                "http://sphotos-a.xx.fbcdn.net/hphotos-prn1/47001_452915219733_7346339_n.jpg",
-                "http://sphotos-b.xx.fbcdn.net/hphotos-prn1/69828_10150313811140585_1839995_n.jpg"
-            ]
-        }
-    }
-};
-
 $(document).ready(function () {
     // put all your jQuery goodness in here.
     $(".accordion").tabs(
@@ -30,7 +9,8 @@ $(document).ready(function () {
 
     // home page scrollable
     var api = $("#page_scroll").scrollable({
-        items:'#page_slides'
+        items:'#page_slides',
+        keyboard: false
         // use the navigator plugin
     }).navigator({navi:".main_menu"}).data("scrollable");
 
