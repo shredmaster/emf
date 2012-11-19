@@ -63,7 +63,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="124" selection-start="5120" selection-end="5120" vertical-scroll-proportion="0.892396">
+            <state line="132" column="126" selection-start="5278" selection-end="5278" vertical-scroll-proportion="0.8278336">
               <folding />
             </state>
           </provider>
@@ -102,7 +102,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="294" column="12" selection-start="6234" selection-end="6234" vertical-scroll-proportion="0.0">
+            <state line="141" column="1" selection-start="3118" selection-end="3118" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -446,13 +446,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="294" column="12" selection-start="6234" selection-end="6234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/img/poster/emf_date.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -475,9 +468,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="1" selection-start="3118" selection-end="3118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="124" selection-start="5120" selection-end="5120" vertical-scroll-proportion="0.892396">
+        <state line="132" column="126" selection-start="5278" selection-end="5278" vertical-scroll-proportion="0.8278336">
           <folding />
         </state>
       </provider>
