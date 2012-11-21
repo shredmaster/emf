@@ -278,6 +278,7 @@ a.link:hover, tr.navi th:hover, tr.navi th.active {
 .band_img {
     width:300px;
     height: 300px;
+    position: relative;
 }
 
 .band_img img {
