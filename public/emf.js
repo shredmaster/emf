@@ -10,7 +10,8 @@ $(document).ready(function () {
     // home page scrollable
     var api = $("#page_scroll").scrollable({
         items:'#page_slides',
-        keyboard: false
+        keyboard: false,
+        touch: false
         // use the navigator plugin
     }).navigator({navi:".main_menu"}).data("scrollable");
 
