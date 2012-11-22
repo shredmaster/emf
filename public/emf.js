@@ -15,7 +15,7 @@ $(document).ready(function () {
         // use the navigator plugin
     }).navigator({navi:".main_menu"}).data("scrollable");
 
-    var theSize = [1100, 1400, 2100, 1900];
+    var theSize = [1400, 2100, 1900,1100];
 
     // this callback does the special handling of our "intro page"
     api.onBeforeSeek(function (e, i) {
