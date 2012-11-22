@@ -270,6 +270,13 @@ a.link:hover, tr.navi th:hover, tr.navi th.active {
     opacity: .7;
 }
 
+
+#emf_buy_now {
+    position: absolute;
+    top:220px;
+    left:740px;
+}
+
 .band {
     width:300px;
     padding: 12px;
@@ -557,6 +564,7 @@ text-align: justify
 div.event div.reports a {
     padding:10px;
 }
+
 
 
 
