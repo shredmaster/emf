@@ -213,32 +213,32 @@ a.link:hover, tr.navi th:hover, tr.navi th.active {
 }
 
 #the_echo, #music_festival, #emf_date, #emf_show_info {
-
     -moz-box-shadow: 0px 2px 4px #262626;
     box-shadow: 0px 2px 4px #262626;
     -webkit-box-shadow: 0px 2px 4px #262626;
     background: #000000;
     position: absolute;
 }
+
 #the_echo {
     left: 620px;
-    top: 62px;
+    top: 42px;
     width: 360px;
 }
 
 #music_festival {
     left: 780px;
-    top: 135px;
+    top: 115px;
 }
 
 #emf_date {
     left: 780px;
-    top: 170px;
+    top: 150px;
 }
 
 #emf_show_info {
     left: 780;
-    top:208px;
+    top:188px;
 }
 
 #facebook {
@@ -250,7 +250,7 @@ a.link:hover, tr.navi th:hover, tr.navi th.active {
 #the_4th {
     position: absolute;;
     left: 755px;
-    top: 78px;
+    top: 58px;
     /*width:280px;*/
     -moz-box-shadow: 0px 2px 4px #262626;
     -webkit-box-shadow: 0px 2px 4px #262626;
