@@ -565,6 +565,11 @@ div.event div.reports a {
     padding:10px;
 }
 
+.time td {
+    text-align: center;
+     vertical-align: middle;
+}
+
 
 
 
