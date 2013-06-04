@@ -67,7 +67,7 @@ div.fallback-video p {
 
 #rain {
     position: relative;
-    top: -70px;
+    top: -200px;
     width: 450px;
     height: 450px;
     margin: 0 auto;
@@ -87,7 +87,7 @@ div.fallback-video p {
 div.flavor-wrapper {
     position: absolute;
     display: block;
-    top: 170px;
+    top: 0px;
     width: 100%;
 }
 
@@ -118,12 +118,16 @@ div.flavor p.drop-counter {
 
 #cloud {
     position: relative;
-    top: -650px;
+    top: -70px;
     width: 500px;
     height: 200px;
     margin: 0 auto;
     font-weight: bold;
     font-size: 30px;
+}
+
+.drop-counter {
+    display: none;
 }
 
 #screen.not-supported #cloud {

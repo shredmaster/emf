@@ -321,7 +321,7 @@ Cursor.prototype = {
 var Cloud = function(container){
     this.container = container;
     this.colors = Generator.gradient('#ec008c', '#ffffff');
-    this.puff_radius = 140;
+    this.puff_radius = 70;
     this.puff_particles = 25;
     this.centers = [
         [ 25, 120], [ 85, 120], [145, 125], [195, 125],

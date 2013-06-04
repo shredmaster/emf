@@ -31,9 +31,14 @@ body {
 }
 
 #content {
-    width: 980px;
     position: absolute;
-    top: 420px;
+    
+    width:400px;
+    margin-left:-200px;
+    left:50%;
+    
+    top: 0px;
+    color: #ffffff;
     /*background-size: contain;*/
 }
 
