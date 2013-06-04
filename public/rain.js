@@ -322,7 +322,7 @@ var Cloud = function(container){
     this.container = container;
     this.colors = Generator.gradient('#ec008c', '#ffffff');
     this.puff_radius = 70;
-    this.puff_particles = 25;
+    this.puff_particles = 15;
     this.centers = [
         [ 25, 120], [ 85, 120], [145, 125], [195, 125],
         [250, 120], [320, 120], [380, 125], [440, 120],

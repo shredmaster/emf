@@ -10,7 +10,7 @@ body {
 #screen {
     position: relative;
     width: 100%;
-    /*height: 100%;*/
+    height: 1000px;
     overflow: hidden;
     user-select: none;
     -webkit-user-select: none;
@@ -67,7 +67,7 @@ div.fallback-video p {
 
 #rain {
     position: relative;
-    top: -200px;
+    top: 130px;
     width: 450px;
     height: 450px;
     margin: 0 auto;
@@ -87,7 +87,7 @@ div.fallback-video p {
 div.flavor-wrapper {
     position: absolute;
     display: block;
-    top: 0px;
+    top: 140px;
     width: 100%;
 }
 
@@ -118,16 +118,13 @@ div.flavor p.drop-counter {
 
 #cloud {
     position: relative;
-    top: -70px;
+    /*top: -450px;*/
+    top: 300px;
     width: 500px;
     height: 200px;
     margin: 0 auto;
     font-weight: bold;
     font-size: 30px;
-}
-
-.drop-counter {
-    display: none;
 }
 
 #screen.not-supported #cloud {
@@ -158,3 +155,6 @@ div.controls.hidden {
     display: none;
 }
 
+.drop-counter {
+    display:none;
+}

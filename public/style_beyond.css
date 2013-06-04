@@ -32,14 +32,50 @@ body {
 
 #content {
     position: absolute;
-    
-    width:400px;
+    width:700px;
     margin-left:-200px;
     left:50%;
-    
     top: 0px;
     color: #ffffff;
     /*background-size: contain;*/
+}
+
+#facebook {
+    position: fixed;
+    left: 0px;
+}
+
+.header_title {
+    font: normal normal bold 68px/1.1em Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+
+.header_sub_title {
+    font: normal normal normal 30px/1.2em Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.header_description {
+    font: normal normal normal 14px/1.3em Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+/** body content font **/
+
+.title {
+    font: normal normal normal 38px/1.3em Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.sub_title {
+    font: normal normal normal 22px/1.3em Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.journey_description {
+    font: normal normal normal 18px/1.3em Helvetica, Arial, sans-serif;
+    color: white;
 }
 
 
