@@ -155,7 +155,6 @@ a.link {
     -webkit-transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
     -moz-transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
     transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
-
 }
 
 a.link:hover, tr.navi th:hover, tr.navi th.active {

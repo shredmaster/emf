@@ -37,6 +37,7 @@ body {
     left:50%;
     top: 0px;
     color: #ffffff;
+    z-index: 10;
     /*background-size: contain;*/
 }
 
@@ -76,6 +77,33 @@ body {
 .journey_description {
     font: normal normal normal 18px/1.3em Helvetica, Arial, sans-serif;
     color: white;
+}
+
+
+a.link {
+vertical-align: middle;
+    margin: 0 5px;
+    padding: 4px 15px;
+    font: normal normal normal 14px/1.3em Helvetica, Arial, sans-serif;
+    border-radius: 0px;
+    text-decoration: none;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
+    border: 1px solid #2A2A2A;
+    border-image: fill;
+    cursor: pointer;
+    -webkit-transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    -moz-transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+a.link:hover {
+    background-color: #CE0202;
+    -webkit-transition: background-color 0.4s ease 0s;
+    -moz-transition: background-color 0.4s ease 0s;
+    transition: background-color 0.4s ease 0s;
 }
 
 
